@@ -10,8 +10,8 @@ def is_palindrome(s: str) -> bool:
 
     return True
   
-string = input("Enter a string: ")
+string = input("Enter a name: ")
 if is_palindrome(string):
-    print(f"The string '{string}' is a palindrome.")
+    print(f"The name '{string}' is a palindrome.")
 else:
-    print(f"The string '{string}' is not a palindrome.")
+    print(f"The name '{string}' is not a palindrome.")
